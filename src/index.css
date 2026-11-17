@@ -1,0 +1,36 @@
+
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+* {
+  scrollbar-width: none;
+}
+
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #6366f1;
+  color: white;
+}
